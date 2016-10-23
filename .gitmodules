@@ -1,0 +1,3 @@
+[submodule "wp-belle"]
+	path = wp-belle
+	url = git@github.com:PlenipotentSS/bellesun_wp.git
