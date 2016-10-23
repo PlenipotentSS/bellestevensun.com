@@ -1,0 +1,36 @@
+
+$yellow: #f3dd6d;
+$trans8yellow: rgba(243, 221, 109, 0.8);
+
+$blue: #3b94d9;
+$trans8blue: rgba(45, 204, 211, 0.8);
+
+
+@import 'app/core/core';
+@import 'app/flexslider/flexslider';
+@import 'app/posts/posts';
+
+
+.navbar {
+  &.navbar-default {
+    background-color: #FFF;
+    border-bottom: 5px solid $yellow;
+  }
+
+  .navbar-nav > li {
+    & > a:hover {
+      color: $blue;
+    }
+  } 
+
+  .navbar-nav > .active {
+    & > a, 
+    & > a:hover {
+      color: $blue;
+    } 
+  }
+}
+
+a {
+  color: $blue;
+}

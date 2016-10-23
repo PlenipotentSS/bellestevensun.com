@@ -1,0 +1,24 @@
+{
+  "name": "bellesunhavanese",
+  "version": "1.0.0",
+  "description": "Template Build",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "babel-core": "^4.6.3",
+    "babel-loader": "^4.0.0",
+    "css-loader": "^0.9.1",
+    "jquery": "^2.1.3",
+    "node-bourbon": "^4.2.1-beta1",
+    "node-neat": "^1.7.1-beta1",
+    "node-sass": "^2.0.1",
+    "react": "^0.12.2",
+    "sass-loader": "^0.4.0",
+    "style-loader": "^0.8.3",
+    "webpack": "^1.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack -w",
+    "dist": "webpack"
+  }
+}
